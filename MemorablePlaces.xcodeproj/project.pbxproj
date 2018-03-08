@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC8B7B2320509B4D0007775B /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B7B2220509B4D0007775B /* PlacesViewController.swift */; };
 		ACB3AA4220508C540053F57C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3AA4120508C540053F57C /* AppDelegate.swift */; };
 		ACB3AA4420508C540053F57C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3AA4320508C540053F57C /* ViewController.swift */; };
 		ACB3AA4720508C540053F57C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB3AA4520508C540053F57C /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		ACB3AA4C20508C540053F57C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB3AA4A20508C540053F57C /* LaunchScreen.storyboard */; };
 		ACB3AA5720508C540053F57C /* MemorablePlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3AA5620508C540053F57C /* MemorablePlacesTests.swift */; };
 		ACB3AA6220508C540053F57C /* MemorablePlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3AA6120508C540053F57C /* MemorablePlacesUITests.swift */; };
+		ACB3AA7120508C690053F57C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB3AA7020508C690053F57C /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC8B7B2220509B4D0007775B /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
 		ACB3AA3E20508C540053F57C /* MemorablePlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemorablePlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB3AA4120508C540053F57C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACB3AA4320508C540053F57C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		ACB3AA5D20508C540053F57C /* MemorablePlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorablePlacesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB3AA6120508C540053F57C /* MemorablePlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorablePlacesUITests.swift; sourceTree = "<group>"; };
 		ACB3AA6320508C540053F57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB3AA7020508C690053F57C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB3AA7120508C690053F57C /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				ACB3AA5520508C540053F57C /* MemorablePlacesTests */,
 				ACB3AA6020508C540053F57C /* MemorablePlacesUITests */,
 				ACB3AA3F20508C540053F57C /* Products */,
+				ACB3AA6F20508C690053F57C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +105,7 @@
 			children = (
 				ACB3AA4120508C540053F57C /* AppDelegate.swift */,
 				ACB3AA4320508C540053F57C /* ViewController.swift */,
+				AC8B7B2220509B4D0007775B /* PlacesViewController.swift */,
 				ACB3AA4520508C540053F57C /* Main.storyboard */,
 				ACB3AA4820508C540053F57C /* Assets.xcassets */,
 				ACB3AA4A20508C540053F57C /* LaunchScreen.storyboard */,
@@ -123,6 +130,14 @@
 				ACB3AA6320508C540053F57C /* Info.plist */,
 			);
 			path = MemorablePlacesUITests;
+			sourceTree = "<group>";
+		};
+		ACB3AA6F20508C690053F57C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACB3AA7020508C690053F57C /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8B7B2320509B4D0007775B /* PlacesViewController.swift in Sources */,
 				ACB3AA4420508C540053F57C /* ViewController.swift in Sources */,
 				ACB3AA4220508C540053F57C /* AppDelegate.swift in Sources */,
 			);
